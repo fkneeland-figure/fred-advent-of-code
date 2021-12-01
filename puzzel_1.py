@@ -11,7 +11,8 @@ def part1():
         pastLine = line
         line = f.readline()
 
-    print("Count: ", count)
+    print("First part: ", count)
+
 
 def part2():
     f = open("./Puzzel_files/puzzel_1.txt")
@@ -33,6 +34,7 @@ def part2():
 
     print("Second part:")
     print(count)
+
 
 part1()
 part2()
